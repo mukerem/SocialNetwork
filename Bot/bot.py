@@ -216,6 +216,7 @@ class Like(Post):
         data = {"post_id": post_id}
         response = requests.post(url=url, json=data, headers=headers)
         if response.ok:
+            print("%-40s %-10d" % (email, post_id))
             return 1
         return 0
 
@@ -232,6 +233,8 @@ class Like(Post):
 
 
     def like_bot(self):
+        print("\n\n Start Like Post...\n")
+        print("%-40s %-10d" % ("User Email", "Post id"))
         max_likes_per_user = self.config.max_likes_per_user
         users = self.get_user()
         available_users = self.get_available_users(users)
@@ -254,7 +257,7 @@ class Like(Post):
                     success = self.like_post(email, post_id)
                     like_count += success
                     count += success
-
+            print()
         print(f"{count} %s was liked." % ("posts" if count > 1 else "post"))
 
 
