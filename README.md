@@ -79,6 +79,10 @@ DB_PORT = "5432"
 ```
 I used my test email to sending an email for users. You can use another email.
 
+
+##### Step 5: Finally run everything :thumbsup: :rocket:
+
+For the `API`
 Now, run migrate to create the model tables in your database
 
 
@@ -89,3 +93,9 @@ python manage.py migrate
 ```sh
 python manage.py runserver
 ```
+
+
+## Bot
+The bot is implemeted by using python request library.
+
+The above requirement file include 2 additional libraries used for the Bot. If the API and Bot configure in the same machine the above configuration is enough. But if the Bot separate from the API it is required create virtual environment and install '''sh requests''' and '''sh names''' libraries. request library is used to send a request to the API and names library is used to generate random names, titles and description.
