@@ -22,7 +22,7 @@ pip install virtualenv
 
 The following clones the backend
 ```sh
-git clone https://github.com/SocialNetwork.git
+git clone https://github.com/mukerem/SocialNetwork.git
 ```
 
 #### Step 3: We are almost there, just a few configurations left :tired_face:
@@ -45,11 +45,11 @@ source env/bin/activate
 
 Then install all the requirements. The requirement file is contains required python, Django and Django-Rest-Framework (DRF) packages for the project.
 ```sh
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 But if you are on linux and you are getting an error, try the following command
 ```sh
-pip3 install -r requirements.txt
+pip3 install -r requirement.txt
 ```
 
 ##### Step 4: Last Configuration, configuring the environment variable
