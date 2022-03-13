@@ -1,0 +1,24 @@
+{% load i18n %}
+
+{% block subject %}
+{% blocktrans %}Account {{ title }} on {{ site_name }}{% endblocktrans %}
+{% endblock subject %}
+
+{% block html_body %}
+<p>
+    {% blocktrans %}
+    You're receiving this email because you need to finish {{ title }} process on {{ site_name }}.
+    {% endblocktrans %}
+</p>
+
+<p>
+    {% blocktrans %}
+    Your {{ title }} code: <b>{{ key }}</b>. Do not give this code to anyone.
+    {% endblocktrans %}
+</p>
+
+<p>{% trans "Thanks for using our site!" %}</p>
+
+<p>{% blocktrans %}The {{ site_name }} team{% endblocktrans %}</p>
+
+{% endblock html_body %}
