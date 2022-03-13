@@ -35,7 +35,7 @@ But if you are on linux and you are getting an error, try the following command
 ```sh
 python3 -m virtualenv env
 ```
-This will create a vritual environment named `env` inside `aoj-backend`
+This will create a vritual environment named `env` inside in project folder.
 
 Activate the virtual environment
 For linux
