@@ -98,4 +98,23 @@ python manage.py runserver
 ## Bot
 The bot is implemeted by using python request library.
 
-The above requirement file include 2 additional libraries used for the Bot. If the API and Bot configure in the same machine the above configuration is enough. But if the Bot separate from the API it is required create virtual environment and install '''sh requests''' and '''sh names''' libraries. request library is used to send a request to the API and names library is used to generate random names, titles and description.
+The above requirement file include 2 additional libraries used for the Bot. 
+
+If the API and Bot configure in the same machine the above configuration is enough. But if the Bot separate from the API it is required create virtual environment and install 'requests' and 'names' libraries. 
+
+'request' library is used to send a request to the API and 'names' library is used to generate random names, titles and description.
+
+The configuration file required for the bot is found in Bot folder. You can edit the configuration values.
+
+The output of the bot result will display in terminal.
+
+Go to `Bot`
+```sh
+cd Bot
+```
+
+Run the bot
+```sh
+python3 bot.py
+```
+
