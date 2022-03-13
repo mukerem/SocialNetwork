@@ -105,6 +105,7 @@ If the API and Bot configure in the same machine the above configuration is enou
 'request' library is used to send a request to the API and 'names' library is used to generate random names, titles and description.
 
 The configuration file required for the bot is found in Bot folder. You can edit the configuration values.
+The bot is implemented by using four classes. Such as User, Post, Like and Config. Each classes consists of several methods. The implementation use OOP features such as Inheritance, Encapsulation, and Construtor.
 
 The output of the bot result will display in terminal.
 
