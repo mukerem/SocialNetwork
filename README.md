@@ -43,7 +43,7 @@ For linux
 source env/bin/activate
 ```
 
-Then install all the requirements. The requirement file is contains required python, Django and Djago-Rest-Framework (DRF) packages for the project.
+Then install all the requirements. The requirement file is contains required python, Django and Django-Rest-Framework (DRF) packages for the project.
 ```sh
 pip install -r requirements.txt
 ```
@@ -81,10 +81,11 @@ I used my test email to sending an email for users. You can use another email.
 
 Now, run migrate to create the model tables in your database
 
-```sh
-cd aoj-backend
-```
 
 ```sh
 python manage.py migrate
+```
+
+```sh
+python manage.py runserver
 ```
