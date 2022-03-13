@@ -1,11 +1,9 @@
 # Social Network
 
-Simple social network with Django and django-rest-framework. 
+###Simple social network with Django and django-rest-framework. 
 
-It includes a bot which can demonstrate the functionality of the system according to certain rules.
+###It includes a bot which can demonstrate the functionality of the system according to certain rules.
 
-
-# Andalus Installation Guide
 
 This is a brief guide on how to configure social netowrk API and bot on your machine.
 
