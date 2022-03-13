@@ -117,4 +117,3 @@ Run the bot
 ```sh
 python3 bot.py
 ```
-
