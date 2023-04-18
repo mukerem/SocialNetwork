@@ -68,12 +68,12 @@ touch .env
 Then open the `.env` file and change the following variables by your database configurations.
 
 ```
-DJANGO_SECRET_KEY = "django-insecure-8ag)(e328p06u$b@wgq4s5n*570wye1)=_i=-)i&y%qfhi(et8"
-EMAIL_HOST_USER = "rapi8work@gmail.com"
-EMAIL_HOST_PASSWORD = "adnan@887"
+DJANGO_SECRET_KEY = "django-insecure-8ag)(e328p06u$b@wgq4s5tyhjkln*570wye1)=_i=-)i&y%qfhi(et8"
+EMAIL_HOST_USER = "test@gmail.com"
+EMAIL_HOST_PASSWORD = "test"
 DB_NAME = "socialnetwork"
-DB_USER = "mukerem"
-DB_PASSWORD = "adnan0887"
+DB_USER = "test"
+DB_PASSWORD = "test"
 DB_HOST = "127.0.0.1"
 DB_PORT = "5432"
 ```
