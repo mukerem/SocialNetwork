@@ -69,11 +69,11 @@ Then open the `.env` file and change the following variables by your database co
 
 ```
 DJANGO_SECRET_KEY = "secret key"
-EMAIL_HOST_USER = "test@gmail.com"
-EMAIL_HOST_PASSWORD = "test"
-DB_NAME = "socialnetwork"
-DB_USER = "test"
-DB_PASSWORD = "test"
+EMAIL_HOST_USER = "YOUR EMAIL"
+EMAIL_HOST_PASSWORD = "YOUR PASSWORD"
+DB_NAME = "DB NAME"
+DB_USER = "DB USER"
+DB_PASSWORD = "DB PASSWORD"
 DB_HOST = "127.0.0.1"
 DB_PORT = "5432"
 ```
