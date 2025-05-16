@@ -68,7 +68,7 @@ touch .env
 Then open the `.env` file and change the following variables by your database configurations.
 
 ```
-DJANGO_SECRET_KEY = "django-insecure-8ag)(e328p06u$b@wgq4s5tyhjkln*570wye1)=_i=-)i&y%qfhi(et8"
+DJANGO_SECRET_KEY = "secret key"
 EMAIL_HOST_USER = "test@gmail.com"
 EMAIL_HOST_PASSWORD = "test"
 DB_NAME = "socialnetwork"
